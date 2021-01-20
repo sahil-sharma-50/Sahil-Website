@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top{
+    box-shadow: 5px 5px  cornflowerblue;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    height:10rem;
+}
+
+.logo{
+    
+    width: 15rem;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: 10px;
+}
+
+h1{
+    color: rgba(7, 59, 99, 0.837);
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    position: absolute;
+    margin-top: 20px;
+    width: 40rem;
+    margin-left: 18rem;
+}
+
+ul li{    
+    float: left;  
+    display: inline-flex;
+    margin: 0px; 
+    position: relative;
+}
+
+ul li a{
+    font-size: 26px;
+    color: cornflowerblue;
+    position: relative;
+    margin: 0px;
+    padding: 5px 25.53px;
+    text-decoration: none;
+}
+
+li a:hover{
+    transition-duration: 300ms;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+}
+
+.home{
+    border:  1px solid black;
+    box-shadow: 5px 5px cornflowerblue;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+form{
+    margin-top: 20px;
+    background-color: white;
+}
+
+input[type=text]{
+    display : block;
+    background-color: white;
+    height: 40px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #878e96;
+}
+
+label{
+    line-height: 60px;
+    background-color: white;
+    font-size: 25px;
+}
+
+button{
+    width: 100%;
+    background-color: #167bff;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+textarea{
+    display : block;
+    background-color: white;
+    height: 100px;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #878e96;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+footer p{
+    border: 1px solid black;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+}

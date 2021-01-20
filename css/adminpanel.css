@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top{
+    box-shadow: 5px 5px  cornflowerblue;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    height:10rem;
+}
+
+.logo{
+    
+    width: 15rem;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: 10px;
+}
+
+h1{
+    color: rgba(7, 59, 99, 0.837);
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    position: absolute;
+    margin-top: 22px;
+    width: auto;
+    margin-left: 7rem;
+    border-radius: 1px solid red;
+}
+
+ul li{    
+    float: left;  
+    display: inline-flex;
+    margin: 0px; 
+    position: relative;
+}
+
+ul li a{
+    font-size: 26px;
+    color: cornflowerblue;
+    position: relative;
+    margin: 0px;
+    padding: 5px 25.53px;
+    text-decoration: none;
+}
+
+li a:hover{
+    transition-duration: 300ms;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+}
+
+#logout{
+    color: red;
+}
+
+#logout:hover{
+    color: white;
+    background-color: red;
+}
+
+footer p{
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.content{
+    border: 1px solid red;
+    margin : 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th, td {
+    padding: 15px;
+}
+
+th{
+    text-align: left;
+}

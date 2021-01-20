@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/loginstyle.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Login</h1>
+        <form action="../php/login.php" method="POST">
+            <label>Username</label>
+            <input type="text" name="username" placeholder="Enter Username" required>
+
+            <label>Password</label>
+            <input type="password" name="pass" placeholder="Enter Password" required>
+
+            <button type="submit">Login</button>
+            <p>New Registration?<a href="../html/signup.html">Click Here</a></p>
+        </form>
+    </div>
+</body>
+</html>

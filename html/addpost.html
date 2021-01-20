@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/addpost.css">
+    <title>Add Post</title>
+</head>
+<body>
+    <div class="box">
+    <h1>Add Post in Website</h1>
+    <form method="POST" action="../php/addpost.php">
+        <label>Title</label>
+        <input type="text" name="title" required>
+
+        <label>Description</label>
+        <textarea type="text" name="des" class="des2" required></textarea>
+
+        <label>Img</label>
+        <input type="file" name="img">
+
+        <label>Content</label>
+        <textarea type="text" name="content" required></textarea>
+
+        <button type="submit">Post</button>
+    </form>
+    </div>
+</body>
+</html>

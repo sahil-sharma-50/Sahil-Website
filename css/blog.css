@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top{
+    box-shadow: 5px 5px  cornflowerblue;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    height:10rem;
+}
+
+.logo{
+    
+    width: 15rem;
+    height: 50px;
+    margin-left: 29rem;
+    margin-top: 10px;
+}
+
+h1{
+    color: rgba(7, 59, 99, 0.837);
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul{
+    position: absolute;
+    margin-top: 20px;
+    width: 40rem;
+    margin-left: 18rem;
+}
+
+ul li{    
+    float: left;  
+    display: inline-flex;
+    margin: 0px; 
+    position: relative;
+}
+
+ul li a{
+    font-size: 26px;
+    color: cornflowerblue;
+    position: relative;
+    margin: 0px;
+    padding: 5px 25.53px;
+    text-decoration: none;
+}
+
+li a:hover{
+    transition-duration: 300ms;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+}
+
+footer p{
+    border: 1px solid black;
+    margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+.home{
+    border:  1px solid black;
+    box-shadow: 5px 5px cornflowerblue;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.left{
+    width: 50rem;
+  
+    height: auto;
+}
+
+img{
+    height: 200px;
+    width: 350px;
+    
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.title{
+    font-weight: 500;
+    color: red;
+    margin-left: 20rem;
+    margin-top: -10.5rem;
+    margin-right: 20px;
+}
+.des{
+    margin-left: 20rem;
+    height: 8rem;
+    margin-bottom: 1rem;
+    margin-top: 0.9rem;
+    margin-right: 20px;
+}
+
+.right{
+    border-left: 1px solid black;
+    width: 20rem;
+    height: auto;
+    margin-left: 51rem;
+    margin-bottom: 51px;
+    position: absolute;
+    bottom: -95px;
+    right: 40px;
+    float: right;
+}
+
+.social{
+    width: 100%;
+    text-align: center;
+}
+
+.about{
+    width: 100%;
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  

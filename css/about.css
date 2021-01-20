@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Crimson Text', serif;
+    background-color: #1c8ef9;
+}
+
+.box{
+    margin: 5rem 20rem;
+    background-color: white;
+    border: 1px solid black;
+    padding: 30px 80px;
+    border-radius: 20px;
+    height: 60rem;
+    width: 55rem;
+}
+
+h1{
+    background-color: white;
+    text-align: center;
+}
+
+form{
+    margin-top: 20px;
+    background-color: white;
+}
+
+input[type=text], input[type=file]{
+    display : block;
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #878e96;
+}
+
+input[type=text] , textarea , .des2{
+    font-size: 30px;
+}
+
+.des2{
+    display : block;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #878e96;
+}
+
+textarea{
+    display : block;
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #878e96;
+}
+
+
+label{
+    line-height: 60px;
+    background-color: white;
+    font-size: 25px;
+}
+
+button{
+    width: 100%;
+    background-color: #167bff;
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    opacity: 0.8;
+}
