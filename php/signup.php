@@ -20,7 +20,7 @@
         $result = mysqli_query($conn,$query);
         if($result){
         echo '<script>alert("Signup Successfull!");</script>';
-        header("refresh:0 ; url = ../php/adminpanel.php");
+        header("refresh:0;url=../html/index.html");
         }
         else{
         echo"Data does not inserted";

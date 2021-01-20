@@ -51,6 +51,7 @@
 
             <div class="right">
                 <div class="social">
+                    <hr>
                     <p>Follow Me On</p>
                     <a href="https://www.facebook.com/sahilsharma50s/" target="_blank" class="fa fa-facebook"></a><br>
                     <a href="https://twitter.com/Sahil_Sharma_50" target="_blank" class="fa fa-twitter"></a><br>
@@ -59,10 +60,6 @@
                     <a href="https://www.instagram.com/sahil_sharma_50/" target="_blank" class="fa fa-instagram"></a><br>
                 </div>
                 <hr>
-                <div class="about">
-                    <caption style="text-align: center;">About Me</caption>
-                    <p>Hello, My name is Sahil. I am the admin of this webite.</p>
-                </div>
             </div>
         </div>
     <!-- Footer Starts Here -->

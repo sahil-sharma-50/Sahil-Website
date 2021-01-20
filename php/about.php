@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../css/aboutpage.css">
     <title>About</title>
 </head>
@@ -29,11 +30,22 @@
         $row = mysqli_fetch_assoc($result);
     ?>
     <u><h1><?php echo $row['title']; ?></h1></u>
+    <p class="des"><?php echo $row['des']; ?><br><br><br><br><br>
+    Find me on these:
+</p>
+
+
     <img src="../images/<?php echo $row['img']; ?>">
-    <p><?php echo $row['des']; ?></p>
+    <div class="social">
+        <ul>
+        <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li> 
+        <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
 </div>
 <footer>
-        <p>Sahil Sharma | Made with your Love | Blog of 2020</p>
+        <p>Sahil Sharma | Update on : 19-01-2021 | 5th sem Projet</p>
     </footer>
 </body>
 </html>

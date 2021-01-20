@@ -75,15 +75,31 @@ footer p{
 }
 
 img{
-    height:300px;
-    margin-left: 21rem;
+    height:400px;
+    margin-left: 7rem;
     margin-top: 1rem;
 }
 
 p{
     margin-top: 1rem;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.des{
+    width: 500px;
+    height: auto;
+    margin-top: 60px;
+    margin-right: 290px;
+    float: right;
+}
+.social{
+    
+    float: right;
+    margin-right: 1050px;
+    margin-top: -150px;
+}
+.social ul li a{
+    font-size: 50px;
 }
 
 u{

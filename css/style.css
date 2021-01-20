@@ -11,36 +11,30 @@
     margin: 20px;
     padding: 5px;
     border: 1px solid black;
-    height:10rem;
+    min-height:10rem;
 }
 
-.logo{
+.logo{   
     
-    width: 15rem;
-    height: 50px;
-    margin-left: 29rem;
     margin-top: 10px;
+    text-align: center;
 }
 
 h1{
     color: rgba(7, 59, 99, 0.837);
     font-size: 35px;
     text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
     text-transform: uppercase;
 }
 
 ul{
-    position: absolute;
     margin-top: 20px;
-    width: 40rem;
-    margin-left: 18rem;
+    text-align: center; 
 }
 
-ul li{    
-    float: left;  
+ul li{     
     display: inline-flex;
-    margin: 0px; 
-    position: relative;
 }
 
 ul li a{
@@ -59,11 +53,34 @@ li a:hover{
     background-color: black;
 }
 
-.social{
-    width: 141.7px;
-    float: right;
-    font-size: 20px;
-    margin-left: 58rem;
+#iconbar{
+    color:black;
+    font-size: 2rem;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    visibility: hidden;
+}
+
+#iconbar:hover{
+    color: red;
+}
+
+.responsive{
+    width: 100%!important;
+    height: 80vh!important;
+    background-color: burlywood;
+    position: relative;
+}
+
+.responsive ul li a{
+    visibility: visible;
+    opacity: 50;
+    color: red; 
+}
+
+.content{
+    min-height: 500px;
 }
 
 footer p{
@@ -81,7 +98,6 @@ footer p{
     text-align: center;
     font-family: 'Roboto', sans-serif;
     position:absolute;
-
 }
 
 .tagline{
@@ -89,7 +105,7 @@ footer p{
     color: white;
     top:75%;
     font-size: 30px;
-    left:37%;
+    left:35%;
 }
 
 .link{
@@ -108,4 +124,40 @@ footer p{
     color: red;
     border-radius: 10px;
     background-color: white;
+}
+
+
+/* Media Queries */
+
+/* Big landscape */
+@media(max-width: 1200px){
+
+}
+
+/* Tablet Landscape */
+
+@media (max-width: 990px){
+    #icons2 ul{
+        opacity: 0;
+        visibility: hidden;
+    }
+    #iconbar{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Portrait tablet */
+@media (max-width:800px ){
+
+}
+
+
+/* Smartphone , Tablets */
+@media (max-width:600px ){
+
+}
+/* Smartphone */
+@media (min-width:480px ){
+
 }

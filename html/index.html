@@ -6,13 +6,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Sahil Website</title>
 </head>
 <body>
     <div class="top">
-        <div class="logo"><h1>Sahil Website</h1></div><br>
+        <div class="logo"><h1>Sahil Prototype</h1></div><br>
         <hr>
+        <div class="items" id="icons2">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="../php/blog.php">Blog</a></li>
@@ -21,16 +24,31 @@
             <li><a href="../html/login.html" target="_blank">Login</a></li>
             <li><a href="../html/signup.html">Signin</a></li>
         </ul>
+        </div>
+        <a href="#" id="iconbar" onclick="icons()"><i class="fa fa-bars" aria-hidden="true"></i></a>
     </div>
     <hr>
     <!-- Content starts here -->
+    <div class="content">
         <img src="../images/anime-cityscape-landscape-scenery-5k-r6.jpg" style="height: 800px; width: 1500px;margin-left: 10px;position: relative;">
-        <h1 class="tag">Sahil Website</h1>
-        <p class="tagline">Code and Explore This World</p>
+        <h1 class="tag">Sahil website</h1>
+        <p class="tagline">A website prototype for Project File</p>
         <a class="link" href="https://www.instagram.com/sahil_sharma_50" target="_blank">Contact</a>
+    </div>
     <!-- Footer Starts Here -->
     <footer>
         <p>Sahil Sharma | Made with your Love | Blog of 2020</p>
     </footer>
+
+    <script>
+        function icons(){
+            var e = document.getElementById("icons2");
+            if(e.className === 'items'){
+                e.className += ' responsive';
+            }else{
+                e.className = 'items';
+            }
+        }
+    </script>
 </body>
 </html>
